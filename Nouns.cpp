@@ -5,7 +5,6 @@ bool nouns::irregulars(bool issing)
 	ifstream in("irregular.txt");
 	if (!in)
 	{
-		//		cout << "Файл с существительными-исключениями не может быть открыт" << endl;
 		return 0;
 	}
 	else
